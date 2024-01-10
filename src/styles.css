@@ -1,0 +1,143 @@
+body {
+  background: #f9f7fe;
+  font-family: "Roboto", sans-serif;
+}
+
+.weather-app {
+  background-image: ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+}
+
+.search-input {
+  width: 75%;
+  font-size: 20px;
+  background-color: #7fd1cb;
+  border: none;
+  border-radius: 6px;
+  transition: all 200ms ease-out;
+  color: rgba(39, 33, 66, 0.4);
+  padding: 20px;
+
+  &:hover,
+  &:focus {
+    outline: 1px solid #7f56e5;
+  }
+}
+
+.search-button {
+  background: #885df1;
+
+  border: none;
+  font-size: 20px;
+  margin-left: 10px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: all 200ms ease-out;
+
+  opacity: default;
+
+  padding: 20px;
+  line-height: 1;
+
+  &:hover,
+  &:focus {
+    background-color: #7f56e5;
+  }
+}
+
+main {
+  padding: 30px 0;
+}
+
+.current-temperature {
+  display: flex;
+  align-items: center;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-city {
+  font-size: 40px;
+  font-weight: 950;
+  margin: 0;
+}
+.current-details {
+  color: #2a2828;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.current-details strong {
+  color: #fa0e53;
+}
+
+.current-temperature-value {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.current-temperature-unit {
+  font-size: 28px;
+  position: relative;
+  margin-top: -35px;
+  margin-left: 5px;
+}
+.humidity,
+.wind {
+  color: #fa0e53;
+  font-weight: bold;
+}
+footer {
+  border-top: 1px solid #f9f7fe;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 20px;
+  color: #918e8e;
+}
+
+/* weather forecast */
+
+.forecast-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 2px;
+  padding: 2px;
+}
+
+.forecast-item {
+  text-align: center;
+  border-radius: 5px;
+  padding: 3px 0;
+  background-color: #afdff27a;
+}
+
+.forecast-temperature-max {
+  color: #fa0e53;
+  font-size: 18px;
+}
+
+.forecast-temperature-min {
+  color: #fa0e53;
+  opacity: 0.8;
+}
+
+.forecast-temperature-icon {
+  width: 84px;
+  height: 84px;
+}
