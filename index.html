@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+   <link rel="stylesheet" href="src/styles.css">
+   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  </head>
+  <body>
+    <div class="weather-app">
+      <header>
+        <form id="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            autocomplete="off"
+            autofocus="on"
+            class="search-input"
+            id="search-input"
+            required
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </header>
+      <main>
+        <div class="current-weather">
+          <div>
+            <h1 class="current-city" id="current-city">Durban</h1>
+            <p class="current-details">
+              <span id="current-date">Thursday</span> ,overcast clouds <span id="description"> 25</span>
+              <br />
+              Humidity:65% <span id="humidity" class="humidity"></span>, Wind:25
+              <span id="wind" class="wind"></span>
+            </p>
+          </div>
+          <div class="current-temperature">
+            <div id="current-temperature-icon">🌤️</div>
+            <span
+              class="current-temperature-value"
+              id="current-temperature"
+            >20</span
+            ><span class="current-temperature-unit">°C</span>
+          </div>
+        </div>
+        </div>
+          
+        </div>
+        </div>
+          
+        </div>
+        
+        </div>
+        <ul id="forecast" class="forecast-list">
+          
+        </ul>
+      </main>
+      <footer>
+        <p>
+          This project was coded by Neliswayisipho
+          and is
+          <a
+            href="https://github.com/Simplyneliswa/My-Shecodes-Plus-Project"
+            target="_blank"
+          >
+            on GitHub</a
+          >
+          and
+          <a href="" target="_blank"
+            >hosted on Netlify</a
+          >
+        </p>
+      </footer>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+  
+</html>
+
+</html>
