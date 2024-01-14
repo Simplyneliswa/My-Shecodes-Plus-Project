@@ -102,6 +102,10 @@ main {
   color: #fa0e53;
   font-weight: bold;
 }
+.forecast-temperature-icon {
+  margin-top: 22px;
+  font-size: 60px;
+}
 footer {
   border-top: 1px solid #f9f7fe;
   text-align: center;
@@ -135,9 +139,4 @@ footer {
 .forecast-temperature-min {
   color: #fa0e53;
   opacity: 0.8;
-}
-
-.forecast-temperature-icon {
-  width: 84px;
-  height: 84px;
 }
