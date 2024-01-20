@@ -1,10 +1,11 @@
 body {
-  background: #f9f7fe;
+  background: #f5deb3;
   font-family: "Roboto", sans-serif;
+  background-image: url(image/picture.jpg);
 }
 
 .weather-app {
-  background-image: ;
+  background-image: url(image/photo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 700px;
@@ -83,7 +84,7 @@ main {
 }
 
 .current-details strong {
-  color: #fa0e53;
+  color: #dc143c;
 }
 
 .current-temperature-value {
@@ -99,7 +100,7 @@ main {
 }
 .humidity,
 .wind {
-  color: #fa0e53;
+  color: #dc143c;
   font-weight: bold;
 }
 .current-temperature-icon {
@@ -133,7 +134,7 @@ footer {
 
 .forecast-temperature-max {
   color: #fa0e53;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .forecast-temperature-min {
